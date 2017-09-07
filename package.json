@@ -1,8 +1,10 @@
 {
   "name": "units-helper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Helper class to convert px -> (rem, em) and (rem, em) -> px",
-  "main": "index.js",
+  "main": "src/index.js",
+  "repository": "git@github.com:LegallaisEcommerce/units-helper.git",
+  "author": "Valentin LÉVÊQUE <contact@valentinleveque.me>",
   "license": "MIT",
   "scripts": {
     "build": "babel src/index.js --out-file dist/index.js"
